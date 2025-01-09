@@ -83,6 +83,14 @@ console.log(5/'gghg');
 const title = 'Best reads of 2019'
 const author = 'Mario';
 const likess = 30;
-
+//concatenation method
 let outcomes = 'the blog called' + title + 'by' + author + 'has' + likess + 'likes';
 console.log(outcomes);
+
+//template method string way
+
+//inject variables in the string lines 
+let resu = `The blog called ${title} by ${author}  has ${likes} likes`;
+console.log(resu)
+
+
