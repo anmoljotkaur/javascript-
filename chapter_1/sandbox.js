@@ -70,7 +70,9 @@ let ques = 5 * (10-3)**2;
 console.log(ques);
 
 let likes = 10;
-likes ++;
+//likes ++;
+//likes--;
+likes += 10;
 console.log(likes);
 
 
