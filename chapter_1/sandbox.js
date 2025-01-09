@@ -40,3 +40,10 @@ console.log(result1);
 
 let index = email.indexOf('@');
 console.log(index);
+
+let email1 = 'anmoljotkaur@academic.rrc.ca';
+let result12 = email1.lastIndexOf('n');
+let resultt = email1.slice(0, 5)
+console.log(result12);
+
+
