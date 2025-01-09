@@ -37,3 +37,6 @@ console.log(result);
 console.log(result, fullname);
  let result1 = fullname.toLowerCase();
 console.log(result1);
+
+let index = email.indexOf('@');
+console.log(index);
