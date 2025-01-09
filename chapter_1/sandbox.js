@@ -72,7 +72,13 @@ console.log(ques);
 let likes = 10;
 //likes ++;
 //likes--;
-likes += 10;
+//likes += 10;
+//likes -= 5;
+//likes *= 2;
+likes /= 2;
+
+
 console.log(likes);
+console.log(5/'gghg');
 
 
