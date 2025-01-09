@@ -80,5 +80,9 @@ likes /= 2;
 
 console.log(likes);
 console.log(5/'gghg');
+const title = 'Best reads of 2019'
+const author = 'Mario';
+const likess = 30;
 
-
+let outcomes = 'the blog called' + title + 'by' + author + 'has' + likess + 'likes';
+console.log(outcomes);
