@@ -48,6 +48,9 @@ console.log(result12);
 
 console.log(resultt);
 
-let result3 = email.substr(4, 10);
-console.log(result3);
+// let result3 = email.substr(4, 10);
+// console.log(result3);
+
+let result4 = email.replace('m', 'w');
+console.log(result4);
 
