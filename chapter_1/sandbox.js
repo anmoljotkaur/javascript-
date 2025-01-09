@@ -34,4 +34,6 @@ console.log(fullname.length);
 console.log(fullname.toUpperCase());
 let result = fullname.toUpperCase();
 console.log(result);
-console.log(result, fullname);gigoi
+console.log(result, fullname);
+ let result1 = fullname.toLowerCase();
+console.log(result1);
