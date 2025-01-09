@@ -64,4 +64,13 @@ let answer = radius % 3;
 
 console.log(answer);
 
+//order of operation - B I D M A S
+
+let ques = 5 * (10-3)**2;
+console.log(ques);
+
+let likes = 10;
+likes ++;
+console.log(likes);
+
 
