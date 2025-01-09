@@ -62,5 +62,6 @@ console.log(radius, pi);
 console.log(10/2);
 let answer = radius % 3;
 
+console.log(answer);
 
 
