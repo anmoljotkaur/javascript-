@@ -57,12 +57,21 @@ console.log(age === '25');  //number can not be  equal to the types.
 
 
  //type conversion
- let score = '100';
+//  let score = '100';
 //  score = Number(score); //converting string to a number because otherwise it returns 1001.
 // console.log(score + 1);
 
 //t result = Number('hello');  //hello is not a number.
-let result = String(50); // we are converting 50 number into a string in javascript
-console.log(result);
+// let result = String(50); // we are converting 50 number into a string in javascript
+// console.log(result);
 
-console.log(result, typeof result); // it will return the types of the result.
+// console.log(result, typeof result); // it will return the types of the result.
+
+// let score = '100';
+// let result = Boolean('0');
+
+// console.log(result, typeof result);
+
+
+
+
