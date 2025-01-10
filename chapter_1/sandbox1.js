@@ -17,8 +17,26 @@ let ninjas = ['shaun','ruy', 'chuli' ];
 
 // let result = ninjas.push('ken');
 
-let result = ninjas.pop();
-console.log(ninjas);
+// let result = ninjas.pop();
+// console.log(ninjas);
+
+// undefined is autmatically know by the browser that value is
+//not given to the variables and it gives me undefined message in console.
+//null is nothing . because we need to clear the forms 
+
+// let age = null;
+
+// console.log(age, age + 3, `the age is ${age}`);
+
+
+console.log(true, false, "true", "false");
+
+// let email = 'anmol@123';
+// let result = email.includes('@');
+
+let age = 25;
+console.log(age ==25);
+console.log(age == 34);
 
 
 
