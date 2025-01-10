@@ -9,5 +9,14 @@ let ninjas = ['shaun','ruy', 'chuli' ];
 
 //array methods
 // let result = ninjas.join(',');
-let result = ninjas.indexOf('chuli');
+// let result = ninjas.indexOf('chuli');
+
+// let result = ninjas.concat(['shaun', 'chuli']);
+
+
+
+// let result = ninjas.push('ken');
 console.log(result);
+
+
+
