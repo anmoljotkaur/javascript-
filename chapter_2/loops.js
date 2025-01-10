@@ -6,10 +6,16 @@
 // }
 // console.log('loop finished');
 
-const names = ['shaun', 'mario', 'luigui'];
+// const names = ['shaun', 'mario', 'luigui'];
 
-for(let i = 0; i < names.length; i++){
-// console.log(names[i]); // give the name of the diffreent array elements
-  let html = `<div>${names[i]}</div>`
-  console.log(html);   
+// for(let i = 0; i < names.length; i++){
+// // console.log(names[i]); // give the name of the diffreent array elements
+//   let html = `<div>${names[i]}</div>`
+//   console.log(html);   
+// }
+
+//while loops
+let i = 0;
+while(i < 5){
+    console.log('in loop:')
 }
