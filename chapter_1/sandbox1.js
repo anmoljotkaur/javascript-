@@ -16,7 +16,11 @@ let ninjas = ['shaun','ruy', 'chuli' ];
 
 
 // let result = ninjas.push('ken');
-console.log(result);
+
+let result = ninjas.pop();
+console.log(ninjas);
+
+
 
 
 
