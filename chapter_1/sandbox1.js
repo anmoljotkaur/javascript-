@@ -34,13 +34,20 @@ console.log(true, false, "true", "false");
 // let email = 'anmol@123';
 // let result = email.includes('@');
 
+// let age = 25;
+// console.log(age ==25);  // equal to 25
+// console.log(age !=34);  //not equal
+// console.log(age > 20);  //less than
+// console.log(age < 20);  // greater then
+// console.log(age <=25); //less than or equal t0
+// console.log(age >= 25);     //reater then or equal to
+
+//lowercase is always less than the captial letter.
+
+//javascript compare equal to numbers if they have the same data types.
+
 let age = 25;
-console.log(age ==25);  // equal to 25
-console.log(age !=34);  //not equal
-console.log(age > 20);  //less than
-console.log(age < 20);  // greater then
-console.log(age <=25); //less than or equal t0
-console.log(age >= 25);     //reater then or equal to
+
 
 
 
