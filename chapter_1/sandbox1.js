@@ -47,9 +47,22 @@ console.log(true, false, "true", "false");
 //javascript compare equal to numbers if they have the same data types.
 
 let age = 25;
+// console.log(age == 25);
+// console.log(age == '25');
+
+//=== equal sign is the strict comparison.(value and type
+console.log(age === 25);
+console.log(age === '25');  //number can not be  equal to the types.
+ //strict compariosn will not be same as in case of !==.
 
 
+ //type conversion
+ let score = '100';
+//  score = Number(score); //converting string to a number because otherwise it returns 1001.
+// console.log(score + 1);
 
+//t result = Number('hello');  //hello is not a number.
+let result = String(50); // we are converting 50 number into a string in javascript
+console.log(result);
 
-
-
+console.log(result, typeof result); // it will return the types of the result.
