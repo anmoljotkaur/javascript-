@@ -6,7 +6,7 @@
 // }
 // console.log('loop finished');
 
-// const names = ['shaun', 'mario', 'luigui'];
+const names = ['shaun', 'mario', 'luigui'];
 
 // for(let i = 0; i < names.length; i++){
 // // console.log(names[i]); // give the name of the diffreent array elements
@@ -15,7 +15,16 @@
 // }
 
 //while loops
-let i = 0;
-while(i < 5){
-    console.log('in loop:')
-}
+// let i = 0;
+
+// while(i < names.length){
+//     console.log(names[i]);
+//     i++;
+// }   
+
+//do while loops
+let i = 3;
+do{
+    console.log('valu of 1 is :', i);
+    i++;
+}while(i < 5);
