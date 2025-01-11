@@ -46,9 +46,12 @@ const names = ['shaun', 'mario', 'luigui'];
 // }
 
 //
-const password = 'pass';
+const password = 'password';
+
 if(password.length >= 8){
-    console.log('that password is long enough')
+    console.log('that password is might strong');
+}else if (password.length >=8){
+    console.log('password is not long enough') 
 }else{
 console.log('password is not long enough')
 }
