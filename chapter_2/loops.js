@@ -40,7 +40,15 @@ const names = ['shaun', 'mario', 'luigui'];
 //     console.log("that is a lot of ninjas");
 // }
 
-const password = 'password';
+// const password = 'password';
+// if(password.length >= 8){
+//     console.log('that password is long enough')
+// }
+
+//
+const password = 'pass';
 if(password.length >= 8){
     console.log('that password is long enough')
+}else{
+console.log('password is not long enough')
 }
