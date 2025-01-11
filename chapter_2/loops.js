@@ -30,7 +30,17 @@ const names = ['shaun', 'mario', 'luigui'];
 // }while(i < 5);
 
 //if statements
-const age = 25;
-if (age >20){
-   console.log('you are over 20 years old');
+// const age = 25;
+// if (age >20){
+//    console.log('you are over 20 years old');
+// }
+
+// const ninjas = ['shaun', 'anmol', 'chu-li', 'yoshi', 'four'];
+// if(ninjas.length > 4){
+//     console.log("that is a lot of ninjas");
+// }
+
+const password = 'password';
+if(password.length >= 8){
+    console.log('that password is long enough')
 }
