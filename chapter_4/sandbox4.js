@@ -69,3 +69,8 @@ console.log(Math.trunc(area));
 const random = Math.random();
 console.log(random)  //generate random numbers
 console.log(Math.round(random*100)); //generate randome number between 1 10 100
+
+
+//premitive types values are stored in stacks(string,numbers, boolean, )
+//reference types are stored in heap they have more memory...(objects all types including dates, array
+
