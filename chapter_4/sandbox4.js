@@ -7,15 +7,28 @@ let user = {
     age: 23,
     email: 'anmol@123',
     location: 'winnipeg',
-    blogs: ['why mac and cheese rules', '10 things to make with mermite']
+    blogs: ['why mac and cheese rules', '10 things to make with mermite'],
+    login: function(){
+        console.log('the user logged in');
+    },
+    logout: function(){
+        console.log('the user logged out');
+    }
 
 };
-console.log(user);
-console.log(user.name);
 
-user.age = 24;
-console.log(user.age);
+user.login();
+user.logout();
 
-console.log(user['name']);
-user['name'] = 'ANU';
-console.log(user.name);
+const name = 'mario';
+name.toUpperCase();
+// console.log(user);
+// console.log(user.name);
+
+// user.age = 24;
+// console.log(user.age);
+
+// console.log(user['name']);
+// user['name'] = 'ANU';
+// console.log(user.name);
+
