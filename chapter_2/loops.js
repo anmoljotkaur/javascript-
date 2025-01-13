@@ -58,12 +58,22 @@ const names = ['shaun', 'mario', 'luigui'];
 
 
 //logical operator
-const password = 'p@ssword123445';
+// const password = 'p@ssword123445';
 
-if(password.length >= 12 && password.includes('@')){
-    console.log('that password is mighty strong');
-}else if (password.length >=8){
-    console.log('password is not long enough') 
-}else{
-console.log('password is not long enough')
+// if(password.length >= 12 && password.includes('@')){
+//     console.log('that password is mighty strong');
+// }else if (password.length >=8){
+//     console.log('password is not long enough');
+// }else{
+// console.log('password is not long enough');
+// }
+
+//logical NOT(!)
+
+let user = false;
+
+if (!user){
+  console.log('you must be logged in to continue')  
 }
+console.log(!true);
+console.log(!false);
