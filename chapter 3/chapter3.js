@@ -68,12 +68,48 @@
 
 
 //converting the above into arrow function
-const bill = (products, tax)=>{
-    let total = 0;
-    for(let i = 0; i < products.length; i++){
-        total += products[i] + products[i] * tax;
-    }
-    return total;
-}
+// const bill = (products, tax)=>{
+//     let total = 0;
+//     for(let i = 0; i < products.length; i++){
+//         total += products[i] + products[i] * tax;
+//     }
+//     return total;
+// }
 
-console.log(bill([10, 15, 30], 0.2));
+// console.log(bill([10, 15, 30], 0.2));
+
+
+//function is block of code you can invoke and run antyime..
+
+
+// const name = 'shaun';
+
+// const greet = () => 'hello';
+
+// let resultOne = greet();
+// console.log(resultOne);
+
+// //methods 
+
+// let resultTwo = name.toUpperCase();
+// console.log(resultTwo);
+
+//callbacks & FOREACH
+
+const myfunc = (callbackFunc) =>
+{
+    let value = 50;
+    callbackFunc(value);
+};
+myfunc(value => {
+    console.log(value);
+});  
+
+
+let people = ['mario', 'anmol', 'jot', 'ele', 'jotr']
+
+const logPerson = (person, index) => {
+    console.log(`${index} - hello ${person}`);
+};
+
+people.forEach (logPerson);
