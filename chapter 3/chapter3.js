@@ -96,20 +96,34 @@
 
 //callbacks & FOREACH
 
-const myfunc = (callbackFunc) =>
-{
-    let value = 50;
-    callbackFunc(value);
-};
-myfunc(value => {
-    console.log(value);
-});  
+// const myfunc = (callbackFunc) =>
+// {
+//     let value = 50;
+//     callbackFunc(value);
+// };
+// myfunc(value => {
+//     console.log(value);
+// });  
 
 
-let people = ['mario', 'anmol', 'jot', 'ele', 'jotr']
+// let people = ['mario', 'anmol', 'jot', 'ele', 'jotr']
 
-const logPerson = (person, index) => {
-    console.log(`${index} - hello ${person}`);
-};
+// const logPerson = (person, index) => {
+//     console.log(`${index} - hello ${person}`);
+// };
 
-people.forEach (logPerson);
+// people.forEach (logPerson);
+
+//got a referenece to url
+const ul = document.querySelector('.people');
+
+const people = ['Mario', 'Luigi', 'Anmol', 'sahun',];
+
+let html = ``;
+
+people.forEach(function(person){
+    //create html template
+    html += `<li style="color: purple">${person}</li>`;
+});
+console.log(html);
+ul.innerHTML = html;
