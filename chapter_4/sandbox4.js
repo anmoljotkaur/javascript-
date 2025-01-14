@@ -121,3 +121,9 @@ console.log(errors);
 //   const paras1 = document.getElementsByTagName('p');
 //   console.log(paras1);
 //   console.log(paras1[0]);
+
+
+//how to change the etxt inside the p tag
+const para = document.querySelector('p')
+//console.log(para.innerText);
+para.innerText = 'ninjas are awesome';
