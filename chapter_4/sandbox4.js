@@ -74,3 +74,31 @@ console.log(Math.round(random*100)); //generate randome number between 1 10 100
 //premitive types values are stored in stacks(string,numbers, boolean, )
 //reference types are stored in heap they have more memory...(objects all types including dates, array
 
+
+
+//interecting with browser
+//DOM : DocumnetObject model
+//add , change and delete content
+//make a cool pop-up effect in the web page
+   
+// const para = document.querySelector('p');  //refernce to this paragraph tag
+// //console.log(para);
+
+
+// const para1 = document.querySelector('.error');  //refernce to this error pars tag
+// console.log(para1);
+
+// const paras = dacumnet.querySelectorAll('p');
+// paras.forEach(para => {
+//     console.log(paras)
+// }
+
+const paras = document.querySelectorAll('p');
+const errors = document.querySelectorAll('.error')
+console.log(paras);
+console.log(errors);
+
+
+// console.log(paras[0]);
+  //queryselector is for getting single element 
+  //gueryselectorAll to get several elements...
