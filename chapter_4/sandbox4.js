@@ -102,3 +102,22 @@ console.log(errors);
 // console.log(paras[0]);
   //queryselector is for getting single element 
   //gueryselectorAll to get several elements...
+
+
+  //get an element by ID
+//    const title = document.getElementById('page-title');
+//    console.log(title);
+
+
+
+//   //get element by their class
+
+//   const errors1 = document.getElementsByClassName('error');
+//   console.log(errors1[0]);
+
+//we cannot use forEach in html collection ...
+  //get element by their tag name
+
+//   const paras1 = document.getElementsByTagName('p');
+//   console.log(paras1);
+//   console.log(paras1[0]);
